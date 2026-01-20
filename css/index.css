@@ -1,0 +1,94 @@
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    color: rgb(5, 5, 55);
+    background-color: rgb(251, 216, 221);
+    font-family: 'Impact', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 24px;
+    color: rgb(48, 48, 80);
+}
+
+a {
+    color: rgb(232, 23, 170);
+}
+
+a:link, a:visited {
+  background-color: hotpink;
+  color: rgb(104, 15, 50);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(246, 179, 234);
+}
+
+h1 {
+    font-family: 'Jaquard 12', system-ui;
+    font-size: 40px;
+    color: rgb(120, 15, 82);
+}
+
+h2 {
+    color: rgb(150, 20, 90);
+}
+
+#Experience {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(60, 60, 90);
+    border-color:rgb(74, 75, 121);
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+ul {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(44, 45, 79);
+    list-style-type: "\2665";
+    list-style-position: inside;
+}
+
+ul li {
+    background: hotpink;
+    color: rgb(249, 204, 210);
+    margin: 5px;
+}
+
+#Connect {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(60, 60, 90);
+    border-color:rgb(74, 75, 121);
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+#About {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(60, 60, 90);
+    border-color:rgb(74, 75, 121);
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    margin: 20px;
+}
