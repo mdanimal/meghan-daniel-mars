@@ -4,6 +4,44 @@
   font-style: normal;
 }
 
+.flavors-regular {
+  font-family: "Flavors", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bricolage-grotesque-paragraph {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.playwrite-cu-guides-regular {
+  font-family: "Playwrite CU Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playwrite-nz-basic-guides-regular {
+  font-family: "Playwrite NZ Basic Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ===========
+Desktop Styles
+============== */
 
 body {
     color: rgb(5, 5, 55);
@@ -15,7 +53,7 @@ body {
 p {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(48, 48, 80);
+    color: rgb(120, 15, 82);
 }
 
 a {
@@ -37,7 +75,7 @@ a:hover, a:active {
 
 h1 {
     font-family: 'Jacquard 12', system-ui;
-    font-size: 60px;
+    font-size: 80px;
     color: rgb(120, 15, 82);
 
 }
@@ -53,8 +91,8 @@ h2 {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    color: rgb(60, 60, 90);
-    border-color:rgb(74, 75, 121);
+    color: rgb(121, 60, 91);
+    border-color:rgb(44, 26, 39);
     border-style: solid;
     border-width: 10px;
     padding: 10px;
@@ -77,8 +115,8 @@ h2 {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    color: rgb(60, 60, 90);
-    border-color:rgb(74, 75, 121);
+    color: rgb(121, 60, 91);
+    border-color:rgb(44, 26, 39);
     border-style: solid;
     border-width: 10px;
     padding: 10px;
@@ -90,8 +128,8 @@ h2 {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    color: rgb(60, 60, 90);
-    border-color:rgb(74, 75, 121);
+    color: rgb(121, 60, 91);
+    border-color:rgb(44, 26, 39);
     border-style: solid;
     border-width: 10px;
     padding: 10px;
@@ -103,8 +141,8 @@ h2 {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    color: rgb(60, 60, 90);
-    border-color:rgb(74, 75, 121);
+    color: rgb(121, 60, 91);
+    border-color:rgb(44, 26, 39);
     border-style: solid;
     border-width: 10px;
     padding: 10px;
@@ -116,8 +154,8 @@ h2 {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
-    color: rgb(60, 60, 90);
-    border-color:rgb(74, 75, 121);
+    color: rgb(121, 60, 91);
+    border-color:rgb(44, 26, 39);
     border-style: solid;
     border-width: 10px;
     padding: 10px;
@@ -154,3 +192,225 @@ nav ul {
     
 }
 
+
+
+
+/* ===========
+Mobile Styles
+============== */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+     body {
+        background-color: rgb(249, 241, 205);
+        color:rgb(69, 63, 12);
+    }
+      
+    h1 {
+        font-family: 'Playwrite CU Guides', cursive;
+        font-size: 50px;
+        color: rgb(246, 212, 22);
+
+    }
+
+    h2 {
+        color: rgb(69, 63, 12);
+        font-family: 'Impact', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(69, 63, 12);
+    }
+
+    a {
+        color: rgb(205, 201, 98);
+    }
+
+    a:link, a:visited {
+        background-color: rgb(205, 186, 16);
+        color: rgb(69, 63, 12);
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a:hover, a:active {
+        background-color: rgb(243, 244, 204);
+    }
+
+
+    .flex-list li {
+        background: rgb(205, 186, 16);
+        color: rgb(70, 69, 122);
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid rgb(50, 46, 2);
+    
+    }
+
+    #Experience {
+        font-size: 20px;
+        color: rgb(43, 40, 25);
+        border-color:rgb(69, 63, 12);
+        border-style: solid;
+        border-width: 3px;
+    
+    }
+
+    #Connect {
+        font-size: 20px;
+        color: rgb(43, 40, 25);
+        border-color:rgb(69, 63, 12);
+        border-style: solid;
+        border-width: 3px;
+   
+    }
+
+    #About {
+         font-size: 20px;
+         color: rgb(43, 40, 25);
+         border-color:rgb(69, 63, 12);
+         border-style: solid;
+         border-width: 3px;
+
+    }
+
+    #Skills {
+        font-size: 20px;
+        color: rgb(43, 40, 25);
+        border-color:rgb(69, 63, 12);
+        border-style: solid;
+        border-width: 3px;
+
+    }
+
+    #Projects {
+        font-size: 20px;
+        color: rgb(43, 40, 25);
+        border-color:rgb(69, 63, 12);
+        border-style: solid;
+        border-width: 3px;
+
+    }
+
+
+}   
+
+
+
+
+/* ===========
+Tablet Styles
+============== */
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    body {
+        background-color: rgb(240, 249, 255);
+        color:rgb(9, 1, 12);
+        font-family: 'Flavors', cursive;
+    }
+
+    h1 {
+        font-family: 'Flavors', cursive;
+        font-size: 70px;
+        color: rgb(15, 41, 120);
+
+    }
+
+    h2 {
+        color: rgb(9, 17, 79);
+        font-family: 'Impact', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    p {
+        font-size: 16px;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        color: rgb(48, 48, 80);
+    }
+
+    a {
+        color: rgb(23, 141, 232);
+    }
+
+    a:link, a:visited {
+        background-color: rgb(105, 200, 255);
+        color: rgb(2, 3, 11);
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a:hover, a:active {
+        background-color: rgb(179, 209, 246);
+    }
+
+
+    .flex-list li {
+        background: rgb(105, 200, 255);
+        color: rgb(70, 69, 122);
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid rgb(70, 69, 122);
+    
+    }
+
+    #Experience {
+        font-size: 20px;
+        color: rgb(60, 60, 90);
+        border-color:rgb(74, 75, 121);
+        border-style: dotted;
+        border-width: 5px;
+    
+    }
+
+    #Connect {
+        font-size: 20px;
+        color: rgb(60, 60, 90);
+        border-color:rgb(74, 75, 121);
+        border-style: dotted;
+        border-width: 5px;
+   
+    }
+
+    #About {
+         font-size: 20px;
+         color: rgb(60, 60, 90);
+         border-color:rgb(74, 75, 121);
+         border-style: dotted;
+         border-width: 5px;
+
+    }
+
+    #Skills {
+        font-size: 20px;
+        color: rgb(60, 60, 90);
+        border-color:rgb(74, 75, 121);
+        border-style: dotted;
+        border-width: 5px;
+
+    }
+
+    #Projects {
+        font-size: 20px;
+        color: rgb(60, 60, 90);
+        border-color:rgb(74, 75, 121);
+        border-style: dotted;
+        border-width: 5px;
+
+    }
+
+
+}   
