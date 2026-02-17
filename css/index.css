@@ -137,6 +137,7 @@ h2 {
 
 }
 
+
 #Skills {
     font-size: 25px;
     font-weight: bold;
@@ -147,8 +148,32 @@ h2 {
     border-width: 10px;
     padding: 10px;
     margin: 20px;
+    
 
 }
+.skills-class {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+
+    
+}
+
+.skills-class li {
+    text-align: center;
+
+}
+
+.skills-class li::before {
+    content: "\2665";
+    color: hotpink;
+    font-size: 30px;
+    margin-right: 10px;
+    
+}   
 
 #Projects {
     font-size: 25px;
@@ -162,7 +187,11 @@ h2 {
     margin: 20px;
 
 }
-
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -253,6 +282,14 @@ Mobile Styles
         border: 1px solid rgb(50, 46, 2);
     
     }
+
+
+    .skills-class li::before {
+        content: "\2665";
+        color: rgb(249, 224, 0);
+        font-size: 20px;
+        margin-right: 10px;
+}   
 
     #Experience {
         font-size: 20px;
@@ -366,6 +403,14 @@ Tablet Styles
         border: 1px solid rgb(70, 69, 122);
     
     }
+
+
+    .skills-class li::before {
+        content: "\2665";
+        color: rgb(4, 1, 53);
+        font-size: 15px;
+        margin-right: 10px;
+}   
 
     #Experience {
         font-size: 20px;
