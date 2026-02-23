@@ -187,6 +187,41 @@ h2 {
     margin: 20px;
 
 }
+
+[id="Leave a Message"] {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(121, 60, 91);
+    border-color:rgb(44, 26, 39);
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+#messages {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(121, 60, 91);
+    border-color:rgb(44, 26, 39);
+    border-style: solid;
+    border-width: 10px;
+    padding: 10px;
+    margin: 20px;
+
+}
+#messages li {
+    background: hotpink;
+    color: rgb(249, 204, 210);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid rgb(44, 26, 39);
+    list-style-type: none;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -221,6 +256,53 @@ nav ul {
     
 }
 
+.myButton {
+    background-color: hotpink;
+    color: rgb(104, 15, 50);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid rgb(44, 26, 39);
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.usersMessage .usersName .usersEmail {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid rgb(44, 26, 39);
+    border-radius: 10px;
+    resize: vertical;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid rgb(44, 26, 39);
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+}
+
+textarea {
+    width: 20%;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid rgb(44, 26, 39);
+    border-radius: 8px;
+    margin-top: 20px;
+    resize: vertical;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 20px;
+}
 
 
 
@@ -336,7 +418,35 @@ Mobile Styles
 
     }
 
+    .myButton {
+    background-color: #fff869;
+    color: rgb(28, 29, 6);
+    font-size: 17px;
+}
 
+    [id="Leave a Message"] {
+        font-size: 20px;
+        color: rgb(43, 40, 25);
+        border-color:rgb(69, 63, 12);
+        border-width: 3px;
+       
+
+}
+    #messages {
+        font-size: 20px;
+        color: rgb(43, 40, 25);
+        border-color:rgb(69, 63, 12);
+        border-width: 3px;
+        
+
+    }
+    #messages li {
+        background:none;
+        color: rgb(69, 63, 12);
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid rgb(69, 63, 12);
+}
 }   
 
 
@@ -457,5 +567,37 @@ Tablet Styles
 
     }
 
+    .myButton {
+    background-color: #69c8ff;
+    color: rgb(6, 7, 29);
+    font-size: 19px;
+    }
+    
+    [id="Leave a Message"] {
+        font-size: 20px;
+        color: rgb(60, 60, 90);
+        border-color:rgb(74, 75, 121);
+        border-style: dotted;
+        border-width: 5px;
+       
+
+    }
+
+    #messages {
+        font-size: 20px;
+        color: rgb(60, 60, 90);
+        border-color:rgb(74, 75, 121);
+        border-style: dotted;
+        border-width: 5px;
+        
+
+    }
+
+    #messages li {
+        background:none;
+        color: rgb(69, 63, 12);
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid rgb(69, 63, 12);
 
 }   
