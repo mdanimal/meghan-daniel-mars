@@ -64,8 +64,14 @@ async function fetchData(url) {
             console.log('Fetching repositories...', projectList);         
             for (let i = 0; i < repositories.length; i++) {
                     const project = document.createElement('li');
-                    project.innerText = repositories[i].name;
-                    projectList.appendChild(project);
+                    const link = document.createElement('a');
+                    link.href = repositories[i].html_url;
+                    link.target = '_blank';
+                    link.innerText = repositories[i].name;
+                    project.appendChild(link);
+                   // project.innerText = repositories[i].name;
+                   project.appendChild(link);
+                   projectList.appendChild(project);
             }
         console.log(repositories);
 
