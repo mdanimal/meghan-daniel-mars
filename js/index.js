@@ -1,9 +1,12 @@
+// JavaScript code for the portfolio website footer
 const today = new Date();
 const thisYear = today.getFullYear();
 const footer = document.querySelector('footer');
 const copyright = document.createElement('p');
 copyright.innerHTML = `&copy;Copyright ${thisYear} Buffy Summers. All rights reserved.`;
 footer.appendChild(copyright);
+
+// Adding skills to the Skills section
 
 let skills = ["Expert Vampire Slayer", "Hand to Hand Combat", "Martial Arts", "Research and Investigation", "Leadership", "Teamwork", "Works Well Under Pressure"];
 let skillsSection = document.getElementById("Skills");
@@ -15,7 +18,7 @@ for (let i = 0; i < skills.length; i++) {
     skillsList.appendChild(skill);
 }
 
-
+// Event listener for the message form
 
 const messageForm = document.getElementsByName("leave_message");
 messageForm[0].addEventListener("submit", (event) => {
@@ -51,6 +54,7 @@ messageForm[0].addEventListener("submit", (event) => {
 
 });
 
+// Fetching data from GitHub API and displaying it in the Projects section
 
 async function fetchData(url) {
     try {
